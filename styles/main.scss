@@ -10,6 +10,11 @@
 
 #crazyPage {
    min-height: 100%;
+   background-image: url(../img/verticalbg.png) !important;
+   background-attachment: fixed;
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
 }
 
 html {
@@ -18,4 +23,5 @@ html {
 
 div.ui-content {
    min-height: 100%;
+   background-color: rgba(255, 255, 255, 0.81);
 }
