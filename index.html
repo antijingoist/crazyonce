@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CrazyOnce</title>
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+   <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="css/themes/jquery.mobile.flatui.min.css" />
+   <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/crazy.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="crazyPage" data-theme="f">
+
+	<div data-role="header">
+		<h1>I was crazy once...</h1>
+	</div>
+
+	<div data-role="content" data-theme="f">
+   <label for="crazySldr">How crazy was I?</label> <input type="range" name="crazySldr" id="crazySldr" value="1" min="1" max="100" step="2" data-highlight="true">
+   <input type="checkbox" name="siskotize" id="siskotize" class="optionSet" />
+   <label for="siskotize">7x2 it</label>
+   <input type="checkbox" name="tuvoktize" id="tuvoktize" class="optionSet" />
+   <label for="tuvoktize">7x25 it</label>
+		<p></p>
+
+      <div id="crazyText">
+
+      </div>
+	</div><!-- /content -->
+</div><!-- /page one -->
+
+</body>
+</html>
