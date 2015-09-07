@@ -1,6 +1,6 @@
 $(document).on("pageinit", "#crazyPage", function(event) {
 
-    var crazyStatement = 'Crazy? I was crazy once. They stuck me in a padded room with rats. Rats! Rats drive me crazy!';
+    var crazyStatement = 'Crazy? I was crazy once. They stuck me in a padded room with rats. Rats! I hate Rats! Rats drive me crazy!';
 
     var theSisko      = ["But my story...",
                          "I don't want to rest. I want to tell my stories.",
