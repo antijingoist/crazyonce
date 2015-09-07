@@ -1,0 +1,22 @@
+#crazyText {
+   font-family: 'Gloria Hallelujah', cursive;
+   line-height: 135%;
+   letter-spacing: 4px;
+}
+
+#crazyText p {
+   padding-bottom: .5em;
+}
+
+#crazyPage {
+   min-height: 100%;
+   height: 100%;
+}
+
+html {
+   min-height: 100%;
+}
+
+div.ui-content {
+   min-height: 100%;
+}
