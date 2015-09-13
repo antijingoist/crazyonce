@@ -31,15 +31,13 @@ $(document).on("pageinit", "#crazyPage", function(event) {
                          "She's never coming back! Her disappearance remains a mystery. I'm deeply concerned. Deeply concerned."
                         ];
 
-    $("input").change();
+
 
     $("input").change(function(event, ui) {
         var fullCrazy = '';
         var siskotizeIt = $('#siskotize').is(':checked');
         var tuvoktizeIt = $('#tuvoktize').is(':checked');
 
-        var siskoQuote = 0;
-        var tuvokQuote = 0;
         var grammer = 0;
 
         for (var i = 0; i < $("#crazySldr").val(); i++) {
@@ -84,5 +82,5 @@ $(document).on("pageinit", "#crazyPage", function(event) {
 
       return totalText;
     }
-
+    $("input").change();
 });
